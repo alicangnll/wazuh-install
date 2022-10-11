@@ -45,6 +45,7 @@ systemctl start elasticsearch
 systemctl status elasticsearch
 touch pass.txt <b>Note passwords to this text file. You will use it.</b>
 /usr/share/elasticsearch/bin/elasticsearch-setup-passwords auto
+nano pass.txt <b>Copy your username and passwords.</b>
 cat pass.txt
 <b>For try: curl -XGET https://localhost:9200 -u elastic:elastic_pwd -k</b>
 clear
